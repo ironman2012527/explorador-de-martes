@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+	background-image: url("mars.gif");
+    background-position: center;
+    background-size: cover;
+}
+#myCanvas
+{
+	border-width:10px;
+	background-color: white; 
+	border-style:ridge;
+}
+
+h1,h4
+{
+	color: white !important;
+}
+</style>		
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<title>Explorador de Marte</title>
+</head>
+<body onload="agregar();">
+<center>
+<h1>Mueve el explorador de Marte</h1>
+<h4>
+	<b>NOTA : </b> SI NO SE VE EL EXPLORADOR, PRESIONA CUALQUIERA DE LAS FLECHAS
+</h4>
+<canvas id="myCanvas" width="700" height="500" class="col-lg-9 col-md-9 col-sm-9 col-xs-9" >
+</center></canvas>
+
+<img src="a.gif" class="img-responsive img-thumbnail img-circle col-lg-3 col-md-3 col-sm-3 col-xs-3" alt="">
+</center>
+<script src="pato.js">
+</script>
+</body>
+</html>
